@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Tajawal:200,300,regular,500,700,800,900);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal';
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*::before,*::after{
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+    --social-nav-bgc:#f5f5f5;
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --main-color:#098e46;
+    --footer-color:#bdbdbd;
+    --footer-bgc:#212121;
+    --footer-icon-colors:#616161;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.accent-clr{
+    color: var(--main-color);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    direction: rtl;
 }
