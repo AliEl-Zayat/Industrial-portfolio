@@ -12,10 +12,11 @@ const Brief = () => {
       <Container className="position-relative">
         <Row>
           <Col lg="6" md="6" className='mt-5' >
+            <div className="mob-text-fix">
           <Fade cascade duration={700} direction="right" triggerOnce='true'>
             <HeadingOfSection htext="نبذه عن" mtext="مصنع كاف للصناعه" />
             <span className="chr1"></span>
-            <p className="fw-semibold w-75 lh-base brief-text">
+            <p className="fw-semibold w-100 lh-base brief-text ps-lg-5">
               مصنع كاف للصناعة بدأت عام 1978م لإنتاج البلاط و صناعة الرخام و
               الحجر و الزخرفة بالمدينة الصناعية الثانية بالرياض .
               <br />
@@ -26,6 +27,7 @@ const Brief = () => {
             </p>
             <button className="_btn mt-4">اقرا المزيد</button>
             </Fade>
+            </div>
           </Col>
           <Col lg="6" md="6" >
             <div className="img-wrapper d-flex align-items-center justify-content-center">
@@ -35,7 +37,7 @@ const Brief = () => {
             </div>
           </Col>
         </Row>
-        <Zoom cascade delay={1400} triggerOnce='true'>
+        <Zoom delay={1400} triggerOnce='true'>
         <div className="floatin-numbers d-flex gap-5">
           <div className="floated-number-wrapper">
             <p className="number">+<CountUp delay={3} end={5000} /></p>

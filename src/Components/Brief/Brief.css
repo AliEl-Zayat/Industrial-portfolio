@@ -66,10 +66,16 @@
     display: block;
 }
 @media screen and (max-width:767px) {
+    
     .floatin-numbers{
         flex-direction: column;
         position: relative;
         bottom: 0;
+        margin-top: 20px;
+        border-radius: 12px;
+    }
+    .img-wrapper{
+        margin-top: 20px;
     }
     .vhr{
         width: 80%;
@@ -77,5 +83,17 @@
     }
     .brief-text{
         margin-bottom: 20px;
+        font-size: 1.2rem;
     }
+    .mob-text-fix{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .chr1{
+        width: 150px;
+    }
+
 }

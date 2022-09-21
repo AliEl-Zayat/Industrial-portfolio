@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 import './Naavbar.css'
 function Naavbar() {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" bg='white'>
       <Container>
         <Navbar.Brand href="#home"><img src={logo} alt="Kaaf Logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
