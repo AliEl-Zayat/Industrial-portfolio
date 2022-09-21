@@ -16,6 +16,8 @@
     --footer-color:#bdbdbd;
     --footer-bgc:#212121;
     --footer-icon-colors:#616161;
+    --gtext-clr:#757575;
+    --vruler:#bdbdbd;
 }
 .accent-clr{
     color: var(--main-color);

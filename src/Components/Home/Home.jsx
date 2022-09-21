@@ -1,4 +1,5 @@
 import React from 'react'
+import Brief from '../Brief/Brief'
 import HeaderLanding from '../HeaderLanding/HeaderLanding'
 import Naavbar from '../Naavbar/Naavbar'
 import SocialNav from '../SocialNav/SocialNav'
@@ -9,6 +10,7 @@ const Home = () => {
     <SocialNav/>
     <Naavbar/>
     <HeaderLanding/>
+    <Brief/>
     </>
   )
 }

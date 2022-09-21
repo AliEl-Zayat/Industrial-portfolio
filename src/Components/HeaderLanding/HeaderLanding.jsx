@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper"
@@ -27,39 +28,173 @@ const HeaderLanding = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide1} alt="image number" />
-            <div className="slider-text-wrapper position-absolute">
-                <h1 className="landing-slogan">منذ عام
-                    <span className="accent-clr me-3">1978</span>
-                </h1>
-                <span className="chr"></span>
+          <div className="slider-overlay"></div>
+          <img src={slide1} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
             </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide2} className='img-fluid' alt="image 1"/>
-            </SwiperSlide>
+        <div className="slider-overlay"></div>
+          <img src={slide2} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide3} className='img-fluid' alt="image 1"/>
-            </SwiperSlide>
+        <div className="slider-overlay"></div>
+          <img src={slide3} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide4} className='img-fluid' alt="image 1"/>
-            </SwiperSlide>
+        <div className="slider-overlay"></div>
+          <img src={slide4} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide5} className='img-fluid' alt="image 1"/>
-            </SwiperSlide>
+        <div className="slider-overlay"></div>
+          <img src={slide5} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide6} className='img-fluid' alt="image 1"/>
-            </SwiperSlide>
+        <div className="slider-overlay"></div>
+          <img src={slide6} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
-            <div className="slider-overlay"></div>
-            <img src={slide7} className='img-fluid' alt="image 1"/>
-            </SwiperSlide>
+        <div className="slider-overlay"></div>
+          <img src={slide7} alt="image number" />
+          <div className="slider-text-wrapper position-absolute">
+            <h1 className="landing-slogan">منذ عام
+              <span className="accent-clr me-3">1978</span>
+            </h1>
+            <span className="chr"></span>
+            <div className="d-flex gap-4">
+              <h1>
+                البلاط البلدي
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الحجر
+                <span className="accent-clr">.</span>
+              </h1>
+              <h1>
+                الرخام
+                <span className="accent-clr">.</span>
+              </h1>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   )
