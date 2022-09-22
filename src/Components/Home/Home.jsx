@@ -4,6 +4,8 @@ import HeaderLanding from '../HeaderLanding/HeaderLanding'
 import Naavbar from '../Naavbar/Naavbar'
 import SocialNav from '../SocialNav/SocialNav'
 import CanavesNavBar from '../CanavesNavBar/CanavesNavBar'
+import Services from '../Services/Services'
+import Projects from '../Projects/Projects'
 const Home = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const Home = () => {
     <CanavesNavBar/>
     <HeaderLanding/>
     <Brief/>
+    <Services/>
+    <Projects/>
     </>
   )
 }

@@ -18,6 +18,8 @@
     --footer-icon-colors:#616161;
     --gtext-clr:#757575;
     --vruler:#bdbdbd;
+    --second-section-clr:#e0e0e0;
+    
 }
 .accent-clr{
     color: var(--main-color);

@@ -16,7 +16,7 @@ function CanavesNavBar() {
       }
   return (
     <>
-      {['sm'].map((expand) => (
+      {['md'].map((expand) => (
                 <Navbar key={expand} expand={expand} bg='white'>
                     <Container>
                         <Navbar.Brand to="/"><NavLink to='/' className='nav-link'><img src={logo} alt="" /></NavLink>
