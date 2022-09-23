@@ -40,7 +40,7 @@ const News = () => {
                     className="mySwiper"
                     breakpoints={
                         {
-                            428:{
+                            766:{
                                 slidesPerView: 1,
                                 spaceBetween: 10,
                                 slidesPerGroup: 1,
