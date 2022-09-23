@@ -7,6 +7,7 @@ import saudi from './imgs/Arab.png';
 import logo from './imgs/logo.png';
 import {FaChevronDown} from 'react-icons/fa';
 import './Naavbar.css'
+import { HashLink } from 'react-router-hash-link';
 
 function CanavesNavBar() {
     const navTogglerFun = () => {
@@ -35,12 +36,12 @@ function CanavesNavBar() {
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                 <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/">الرئيسية</NavLink>
-                            <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/who">من نحن</NavLink>
-                            <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/services">الخدمات</NavLink>
-                            <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/projects">المشاريع</NavLink>
-                            <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/news">الأخبار</NavLink>
-                            <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/hire">التوظيف</NavLink>
-                            <NavLink className='nav-link fw-bold' onClick={navTogglerFun} to="/sells">المبيعات و التواصل</NavLink>
+                            <HashLink className='nav-link fw-bold' onClick={navTogglerFun} to="#brief">من نحن</HashLink>
+                            <HashLink className='nav-link fw-bold' onClick={navTogglerFun} to="#services">الخدمات</HashLink>
+                            <HashLink className='nav-link fw-bold' onClick={navTogglerFun} to="#projects">المشاريع</HashLink>
+                            <HashLink className='nav-link fw-bold' onClick={navTogglerFun} to="#news">الأخبار</HashLink>
+                            <HashLink className='nav-link fw-bold' onClick={navTogglerFun} to="#hire">التوظيف</HashLink>
+                            <HashLink className='nav-link fw-bold' onClick={navTogglerFun} to="#main-footer">المبيعات و التواصل</HashLink>
                                     {/* <NavLink to="/Testimonials" className='nav-link' onClick={navTogglerFun}>Testimonials</NavLink> */}
                                     <NavLink to="/lang" className='d-flex gap-3 align-items-center nav-link fw-bold me-5'>
               <img src={saudi} width='23px' height='15px' alt="Arabic" />

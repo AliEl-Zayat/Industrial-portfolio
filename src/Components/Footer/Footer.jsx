@@ -6,7 +6,7 @@ import './Footer.css'
 import {FaMapMarkerAlt,FaPhone,FaEnvelope,FaFax,FaChevronLeft,FaSnapchatGhost,FaWhatsapp,FaInstagram,FaTwitter,FaFacebookF} from 'react-icons/fa'
 const Footer = () => {
   return (
-    <footer className='py-5'>
+    <footer className='py-5' id='main-footer'>
       <Container>
         <Row>
           <Col lg='4' md='4'>
