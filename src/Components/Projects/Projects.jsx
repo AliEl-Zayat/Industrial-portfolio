@@ -14,12 +14,12 @@ const Projects = () => {
             })
     }, []);
   return (
-      <section className='projects py-5' id='projects'>
+      <section className='projects py-5'>
                 <div className="hos d-flex flex-column align-items-center gap-2 mb-3">
                     <HeadingOfSection htext="أهم المشاريع" mtext="مشـــاريعنـا" />
                     <hr className='width-edit chr1' />
                 </div>
-                <Row className='g-0 mt-5'>
+                <Row className='g-0 mt-5' id='projects'>
                 {
                     projects.map((project) =>(
                         <Col lg='3' md='6' sm='12' key={project.id}>

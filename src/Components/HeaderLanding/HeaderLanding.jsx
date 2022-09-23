@@ -15,7 +15,7 @@ import slide6 from './imgs/image6.jpg'
 import slide7 from './imgs/image7.jpg'
 const HeaderLanding = () => {
   return (
-    <>
+    <header id='landing'>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -196,7 +196,7 @@ const HeaderLanding = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </header>
   )
 }
 
