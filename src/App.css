@@ -19,7 +19,8 @@
     --gtext-clr:#757575;
     --vruler:#bdbdbd;
     --second-section-clr:#e0e0e0;
-    
+    --third-section-clr:#f9f9f9;
+    --hr-third-section:#bcbcbc;
 }
 .accent-clr{
     color: var(--main-color);

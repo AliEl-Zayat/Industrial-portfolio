@@ -1,0 +1,124 @@
+.news{
+    background-color: var(--third-section-clr);
+    position: relative;
+}
+.news .width-edit{
+    width: 127px;
+    opacity: 1;
+    color: var(--hr-third-section);
+}
+.news .mtext {
+    font-size: 25px;
+}
+.news ._card-text-wrapper{
+    background-color: var(--white-color);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+    width: 88%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+.news ._card-heading{
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--footer-bgc);
+}
+.news ._card-date{
+    color: var(--gtext-clr);
+    font-weight: 400;
+}
+.news .btnre {
+    width: 42px;
+    height:42px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateY(50%)translateX(50%);
+    -webkit-transform: translateY(50%)translateX(50%);
+    -moz-transform: translateY(50%)translateX(50%);
+    -ms-transform: translateY(50%)translateX(50%);
+    -o-transform: translateY(50%)translateX(50%);
+}
+.news .for-hover{
+    width: 100%;
+    height: 3px;
+    background-color: var(--main-color);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.news .btn-trick .btn:hover{
+    background-color: var(--main-color);
+}
+.news .btn-trick .btn:hover .change-hover-clr{
+    color: var(--white-color) !important;
+}
+.news .btn-trick .btn:hover ~ .for-hover{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.news .swiper-button-prev,.swiper-button-next{
+    display: none;
+}
+.news .swiper-pagination-bullet.swiper-pagination-bullet-active,.swiper-pagination-bullet{
+    background-color: var(--main-color);
+    width: 4px !important;
+    height: 4px !important;
+}
+.news .swiper-wrapper{
+    height: auto;
+}
+.news .swiper {
+    height: calc(100vh - 420px);
+}
+.news ._card{
+    width: 360px;
+    height: 360px;
+}
+.news .read-more {
+    padding: 0.4rem 2.4rem;
+    margin-inline: auto;
+    font-weight: 500;
+}
+@media screen and (max-width:767px) {
+.news ._card{
+    margin-bottom: 100px;
+}
+}

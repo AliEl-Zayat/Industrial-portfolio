@@ -1,0 +1,47 @@
+.hire{
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    height: 422px;
+    overflow-y: hidden;
+}
+.hire img.hire-vector{
+   position: absolute;
+   top: 0px;
+   height: 422px;
+}
+.hire .bla-slogan .gtext{
+    color: var(--second-section-clr);
+}
+.hire .bla-slogan .mtext{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+.hire .hiring-text{
+    color: var(--white-color);
+}
+.hire .hire-me{
+    background: var(--white-color);
+    color: var(--main-color);
+    padding: 0.5rem 2.3rem;
+}
+@media screen and (max-width:767px) {
+    .hire img.hire-vector{
+        display: none;
+    }
+}
+@media screen and (min-width:767px) {
+    .hire img.hire-vector{
+        z-index: 1;
+        opacity: 0.4;
+    }
+    .hire .bla-slogan{
+        position: relative;
+        z-index: 2;
+    }
+    .btn.accent-clr.hire-me.my-2{
+        position: relative;
+        z-index: 2;
+    }
+}
