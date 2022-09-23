@@ -50,6 +50,9 @@ footer input[type=email]{
     -o-border-radius: 3px;
     padding-right: 15px;
 }
+.input-tricks{
+    width: max-content;
+}
 .input-tricks .floated-icon:first-of-type{
     transition: all 0.2s ease-in-out;
     position: absolute;
