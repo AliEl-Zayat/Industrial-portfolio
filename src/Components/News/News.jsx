@@ -27,14 +27,13 @@ const News = () => {
             </div>
             <Container>
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    slidesPerGroup={3}
+                    autoHeight='true'
                     loop={true}
                     loopFillGroupWithBlank={true}
                     pagination={{
                         clickable: true,
                     }}
+                    
                     navigation={true}
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
@@ -58,11 +57,11 @@ const News = () => {
                             <div className="_card position-relative d-flex justify-content-center">
                                 <img src={newItem.image} className='rounded-1' alt="img" width='360px' height='450px' />
                                 <div className="_card-text-wrapper d-flex flex-column align-items-center mx-auto">
-                                    <p className="_card-heading w-75 text-center lh-base d-flex flex-column align-items-center pt-3">
+                                    <div className="_card-heading w-75 text-center lh-base d-flex flex-column align-items-center py-3">
                                         {newItem.title}
                                         <hr className='accent-clr w-25 opacity-100' />
                                         <p className='_card-date'>{newItem.date}</p>
-                                    </p>
+                                    </div>
 
                                     <div className="btn-trick w-100">
                                         <button className='btnre'>
