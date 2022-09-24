@@ -20,21 +20,30 @@
 ],
     "projects": [
         {"id":"1",
-    "image":"./imgs/image 7.jpg"},
+    "image":"./imgs/image 7.jpg",
+    "type":"Tile"
+},
     {"id":"2",
-    "image":"./imgs/image 9.jpg"},
+    "image":"./imgs/image 9.jpg"
+},
     {"id":"3",
-    "image":"./imgs/image 10.jpg"},
+    "image":"./imgs/image 10.jpg"
+},
     {"id":"4",
-    "image":"./imgs/image 11.jpg"},
+    "image":"./imgs/image 11.jpg"
+},
     {"id":"5",
-    "image":"./imgs/image 14.jpg"},
+    "image":"./imgs/image 14.jpg"
+},
     {"id":"6",
-    "image":"./imgs/image 15.jpg"},
+    "image":"./imgs/image 15.jpg"
+},
     {"id":"7",
-    "image":"./imgs/image 16.jpg"},
+    "image":"./imgs/image 16.jpg"
+},
     {"id":"8",
-    "image":"./imgs/image 17.jpg"}
+    "image":"./imgs/image 17.jpg"
+}
 ],
     "news":[
         {
