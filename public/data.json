@@ -1,102 +1,141 @@
 {
     "services": [
-    {
-        "id": 1,
-        "title": "البلاط البلدي",
-        "image": "./imgs/gi1.jpg"
-    },    {
-        "id": 2,
-        "title": "الحجر",
-        "image": "./imgs/gi2.png"
-    },    {
-        "id": 3,
-        "title": "الرخام",
-        "image": "./imgs/gi3.png"
-    },    {
-        "id": 4,
-        "title": "التصاميم",
-        "image": "./imgs/gi4.png"
-    }
-],
+        {
+            "id": 1,
+            "title": "البلاط البلدي",
+            "image": "./imgs/gi1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "الحجر",
+            "image": "./imgs/gi2.png"
+        },
+        {
+            "id": 3,
+            "title": "الرخام",
+            "image": "./imgs/gi3.png"
+        },
+        {
+            "id": 4,
+            "title": "التصاميم",
+            "image": "./imgs/gi4.png"
+        }
+    ],
     "projects": [
-        {"id":"1",
-    "image":"./imgs/image 7.jpg",
-    "type":"Tile"
-},
-    {"id":"2",
-    "image":"./imgs/image 9.jpg"
-},
-    {"id":"3",
-    "image":"./imgs/image 10.jpg"
-},
-    {"id":"4",
-    "image":"./imgs/image 11.jpg"
-},
-    {"id":"5",
-    "image":"./imgs/image 14.jpg"
-},
-    {"id":"6",
-    "image":"./imgs/image 15.jpg"
-},
-    {"id":"7",
-    "image":"./imgs/image 16.jpg"
-},
-    {"id":"8",
-    "image":"./imgs/image 17.jpg"
-}
-],
-    "news":[
         {
-            "id":"1",
-            "image":"./imgs/Rectangle 12.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "1",
+            "image": "./imgs/image 7.jpg",
+            "type": "design"
         },
         {
-            "id":"2",
-            "image":"./imgs/Rectangle 13.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "2",
+            "image": "./imgs/image 9.jpg",
+            "type": "design"
         },
         {
-            "id":"3",
-            "image":"./imgs/Rectangle 14.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
-        },        {
-            "id":"4",
-            "image":"./imgs/Rectangle15.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "3",
+            "image": "./imgs/image 10.jpg",
+            "type": "rock"
         },
         {
-            "id":"5",
-            "image":"./imgs/Rectangle16.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "4",
+            "image": "./imgs/image 11.jpg",
+            "type": "rock"
         },
         {
-            "id":"6",
-            "image":"./imgs/Rectangle17.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
-        },        {
-            "id":"7",
-            "image":"./imgs/Rectangle18.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "5",
+            "image": "./imgs/image 14.jpg",
+            "type": "design"
         },
         {
-            "id":"8",
-            "image":"./imgs/Rectangle19.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "6",
+            "image": "./imgs/image 15.jpg",
+            "type": "design"
         },
         {
-            "id":"9",
-            "image":"./imgs/Rectangle20.jpg",
-            "title":"استمرار العمل في توريد الحجر لبرج الزامل",
-            "date":"7 مارس 2021"
+            "id": "7",
+            "image": "./imgs/image 16.jpg",
+            "type": "design"
+        },
+        {
+            "id": "8",
+            "image": "./imgs/image 17.jpg",
+            "type": "design"
+        },
+                {
+            "id": "9",
+            "image": "./imgs/tile1.jpg",
+            "type": "tile"
+        },
+                {
+            "id": "10",
+            "image": "./imgs/tile2.jpg",
+            "type": "tile"
+        },
+                {
+            "id": "11",
+            "image": "./imgs/tile3.jpg",
+            "type": "tile"
+        },                {
+            "id": "12",
+            "image": "./imgs/tile4.jpg",
+            "type": "tile"
+        }
+    ],
+    "news": [
+        {
+            "id": "1",
+            "image": "./imgs/Rectangle 12.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "2",
+            "image": "./imgs/Rectangle 13.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "3",
+            "image": "./imgs/Rectangle 14.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "4",
+            "image": "./imgs/Rectangle15.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "5",
+            "image": "./imgs/Rectangle16.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "6",
+            "image": "./imgs/Rectangle17.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "7",
+            "image": "./imgs/Rectangle18.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "8",
+            "image": "./imgs/Rectangle19.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
+        },
+        {
+            "id": "9",
+            "image": "./imgs/Rectangle20.jpg",
+            "title": "استمرار العمل في توريد الحجر لبرج الزامل",
+            "date": "7 مارس 2021"
         }
     ]
 }
