@@ -15,10 +15,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Loading.css";
 const Home = () => {
   let [loading, setLoading] = useState(true);
+  function loadingBody() {
+    document.body.style.overflow = "visible";
+  }
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
+      loadingBody();
     }, 2500);
   }, []);
   return (
@@ -31,20 +35,17 @@ const Home = () => {
             size={150}
           />
         </div>
-      ) : (
-        <>
-          <SocialNav />
-          <CanavesNavBar />
-          <HeaderLanding />
-          <Brief />
-          <Services />
-          <Projects />
-          <News />
-          <Hire />
-          <Mapps />
-          <Footer />
-        </>
-      )}
+      ) : null}
+      <SocialNav />
+      <CanavesNavBar />
+      <HeaderLanding />
+      <Brief />
+      <Services />
+      <Projects />
+      <News />
+      <Hire />
+      <Mapps />
+      <Footer />
     </>
   );
 };
