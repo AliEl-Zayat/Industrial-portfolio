@@ -26,7 +26,7 @@ const Projects = () => {
       </div>
       <Row className="g-0 mt-5" id="projects">
         <div className="mb-3">
-          <ul className="list-unstyled d-flex gap-5 justify-content-center filter-btns-container">
+          <ul className="list-unstyled d-flex gap-3 justify-content-center filter-btns-container">
             <li
               className={isActive === 1 ? "active" : null}
               onClick={() => {
