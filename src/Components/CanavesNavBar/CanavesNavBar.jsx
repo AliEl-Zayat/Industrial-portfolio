@@ -38,13 +38,9 @@ function CanavesNavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <HashLink
-                    className="nav-link fw-bold"
-                    onClick={navTogglerFun}
-                    to="#landing"
-                  >
+                  <NavLink to="/" className="nav-link" onClick={navTogglerFun}>
                     الرئيسية
-                  </HashLink>
+                  </NavLink>
                   <HashLink
                     className="nav-link fw-bold"
                     onClick={navTogglerFun}

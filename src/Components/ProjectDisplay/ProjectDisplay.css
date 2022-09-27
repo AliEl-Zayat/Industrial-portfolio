@@ -1,0 +1,50 @@
+.bg-green {
+  background-color: var(--main-color);
+  height: 330px;
+}
+#project-details .flex-row-reverse.justify-content-between {
+  padding-top: 3rem;
+}
+#project-details .project-brief-overflowed {
+  font-size: 30px;
+  width: 70%;
+  float: none;
+  height: 7ch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+#project-details .project-brief {
+  font-size: 30px;
+  width: 100%;
+  float: none;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.float-left {
+  display: inline-block !important;
+}
+.prod-img-wrapper {
+  overflow: hidden;
+  float: left;
+  height: 100%;
+}
+@media screen and (max-width: 766px) {
+  #project-details .flex-row-reverse.justify-content-between {
+    padding-top: 0 !important;
+  }
+  .prod-img-wrapper {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+}
