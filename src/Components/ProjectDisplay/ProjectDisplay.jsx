@@ -10,7 +10,7 @@ const ProjectDisplay = () => {
   const isProject = projects.find((project) => project.id === id);
   const [readMe, setReadMe] = useState(false);
   return (
-    <section id="project-details">
+    <section id="project-details" className="project-details-ar">
       <CanavesNavBar />
       <div className="bg-green">
         <Container>
@@ -46,12 +46,21 @@ const ProjectDisplay = () => {
                 تفاعل المستخدم. أتمتة إنتاج المكونات المصبوبة بالحقن الميكانيكي
                 وتجميعات ثنائي الفينيل متعدد الكلور وتجميع المنتج النهائي.
               </p>
-              <button
-                className="btn btn-primary"
-                onClick={() => setReadMe(!readMe)}
-              >
-                اقرا المزيد
-              </button>
+              {readMe ? (
+                <button
+                  className="btn btn-primary"
+                  onClick={() => setReadMe(!readMe)}
+                >
+                  اقل
+                </button>
+              ) : (
+                <button
+                  className="btn btn-outline-primary"
+                  onClick={() => setReadMe(!readMe)}
+                >
+                  المزيد
+                </button>
+              )}
             </div>
           </div>
         </Container>

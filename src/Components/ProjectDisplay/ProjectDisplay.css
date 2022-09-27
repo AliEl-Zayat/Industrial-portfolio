@@ -2,6 +2,29 @@
   background-color: var(--main-color);
   height: 330px;
 }
+.project-details-ar .btn.btn-primary {
+  background-color: var(--main-color);
+  padding-inline: 20px;
+  border-color: var(--main-color) !important;
+}
+.project-details-ar .btn.btn-primary:hover {
+  background-color: transparent;
+  border-color: var(--main-color) !important;
+  color: var(--main-color);
+}
+.project-details-ar .btn-outline-primary {
+  background-color: transparent;
+  border-color: var(--white-color);
+  color: var(--white-color);
+}
+.project-details-ar .btn-outline-primary:hover {
+  color: var(--black-color);
+  background-color: transparent;
+  border-color: var(--black-color);
+}
+.project-details-ar {
+  direction: rtl;
+}
 #project-details .flex-row-reverse.justify-content-between {
   padding-top: 3rem;
 }
