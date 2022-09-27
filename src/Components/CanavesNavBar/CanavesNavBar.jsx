@@ -8,6 +8,7 @@ import logo from "./imgs/logo.png";
 import { FaChevronDown } from "react-icons/fa";
 import "./Naavbar.css";
 import { HashLink } from "react-router-hash-link";
+import React, { useState } from "react";
 
 function CanavesNavBar() {
   const navTogglerFun = () => {
@@ -15,6 +16,8 @@ function CanavesNavBar() {
       document.querySelector(".btn-close").click();
     }
   };
+  const [langDowned, setlangDowned] = useState(false);
+
   return (
     <>
       {["md"].map((expand) => (
@@ -84,14 +87,38 @@ function CanavesNavBar() {
                     المبيعات و التواصل
                   </HashLink>
                   {/* <NavLink to="/Testimonials" className='nav-link' onClick={navTogglerFun}>Testimonials</NavLink> */}
-                  <NavLink
-                    to="/lang"
-                    className="d-flex gap-3 align-items-center nav-link fw-bold me-5"
+                  <span
+                    onClick={() => {
+                      setlangDowned(!langDowned);
+                    }}
+                    className="position-relative btn d-flex justify-content-center gap-3 align-items-center nav-link fw-bold me-5 lang-dropdown"
                   >
                     <img src={saudi} width="23px" height="15px" alt="Arabic" />
-                    العربية
+                    العربيه
                     <FaChevronDown />
-                  </NavLink>
+                    <div
+                      id="cDDown"
+                      className={
+                        langDowned
+                          ? "_dropdown position-absolute toggggled"
+                          : "_dropdown position-absolute"
+                      }
+                    >
+                      <span className="arrow-up"></span>
+                      <ul className="list-unstyled d-flex flex-column gap-3">
+                        <li>
+                          <NavLink to="/" className="_clink">
+                            العربيه
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/en" className="_clink">
+                            English
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </div>
+                  </span>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

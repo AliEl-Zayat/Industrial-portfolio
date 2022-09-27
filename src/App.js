@@ -1,18 +1,19 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./Components/Home/Home";
+import EnHome from "./EnComponents/Home/Home";
+import ArHome from "./Components/Home/Home";
 import ProjectDisplay from "./Components/ProjectDisplay/ProjectDisplay";
-import SocialNav from "./Components/SocialNav/SocialNav";
-import CanavesNavBar from "./Components/CanavesNavBar/CanavesNavBar";
+import ProjectDisplayEn from "./EnComponents/ProjectDisplay/ProjectDisplay";
+
 const App = () => {
   return (
     <BrowserRouter>
-      <SocialNav />
-      <CanavesNavBar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/project/:id" element={<ProjectDisplay />}></Route>
+        <Route path="/en" element={<EnHome />}></Route>
+        <Route path="/" element={<ArHome />}></Route>
+        <Route path="project/:id" element={<ProjectDisplay />}></Route>
+        <Route path="en/project/:id" element={<ProjectDisplayEn />}></Route>
       </Routes>
     </BrowserRouter>
   );

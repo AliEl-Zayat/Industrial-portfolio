@@ -1,0 +1,105 @@
+.services{
+    height: 330px;
+    background-color: var(--main-color);
+}
+.services .hos hr{
+    margin: 0;
+    color: var(--white-color);
+    opacity: 1;
+}
+.services .hos .mtext.accent-clr{
+    color: var(--white-color);
+
+    font-size: 25px;
+    font-weight: bold;
+}
+.services .hos .gtext{
+    color: var(--second-section-clr);
+    font-size: 16px;
+}
+.services .hos .width-edit{
+    width: 128px;
+}
+.services .service-container{
+    position: relative;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .services-btn{
+    width: 42px;
+    height:42px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    z-index: 2;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.onhover-width{
+    width: 263px;
+    height: 4px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}
+.chevicon{
+    color: var(--main-color);
+}
+.services-btn:hover .chevicon{
+    color: var(--white-color) !important;
+}
+.services-btn:hover{
+    background-color: var(--main-color);
+}
+.services-btn:hover ~ .onhover-width{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.services-title{
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.services-btn:hover ~ .services-title{
+    color: var(--main-color);
+}
+@media screen and (max-width:767px) {
+    .service-container{
+        margin-bottom: 20px;
+    }
+}

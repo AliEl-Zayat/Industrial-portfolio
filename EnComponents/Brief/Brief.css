@@ -1,0 +1,99 @@
+.brief-text{
+    letter-spacing: 0.5px;
+}
+._btn{
+    border: 1.8px solid var(--main-color);
+    color: var(--main-color);
+    font-weight: 500;
+    padding: 0.4rem 1.8rem;
+    background-color: var(--white-color);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+._btn:hover{
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+.floated-number-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 35px;
+}
+.floatin-numbers{
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+    background-color: var(--white-color);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 0.5rem 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px;
+    position: absolute;
+    bottom: 50px;
+}
+.number{
+    font-size: 30px;
+    font-weight: bold;
+}
+.floated-number-wrapper p:nth-child(2){
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.number,.floated-number-wrapper p:nth-child(2){
+    margin-bottom: 0 !important;
+}
+
+.vhr{
+    width: 1px;
+    height: 65px;
+    background-color: var(--vruler);
+    display: block;
+}
+@media screen and (max-width:767px) {
+    
+    .floatin-numbers{
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+        margin-top: 20px;
+        border-radius: 12px;
+    }
+    .img-wrapper{
+        margin-top: 20px;
+    }
+    .vhr{
+        width: 80%;
+        height: 1px;
+    }
+    .brief-text{
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+    .mob-text-fix{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .chr1{
+        width: 150px;
+    }
+
+}

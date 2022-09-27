@@ -1,0 +1,101 @@
+.hire-modal .btn-close {
+  margin: 0 !important;
+}
+.hire-modal div#contained-modal-title-vcenter {
+  color: var(--main-color);
+}
+
+.hire-modal h4.text-center {
+  color: var(--main-color);
+}
+
+.hire-modal form {
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.hire-modal input:not(input[type="submit"]),
+.hire-modal textarea {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+.hire-modal button.btn.accent-clr.hire-me.btn.btn-primary {
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+  background: transparent;
+  margin-left: auto;
+}
+
+.hire-modal button.btn.accent-clr.hire-me.btn.btn-primary:hover {
+  background: var(--main-color) !important;
+  color: var(--white-color) !important;
+}
+.hire-modal label {
+  margin-bottom: 5px;
+}
+.hire-modal .sent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.hire-modal .sent-icon-wrapper {
+  width: 75px;
+  height: 75px;
+  display: grid;
+  place-items: center;
+  border: 3px solid var(--main-color);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  animation: fadedSent 2s;
+  -webkit-animation: fadedSent 2s;
+}
+.hire-modal .sent-icon {
+  font-size: 40px;
+  color: var(--main-color);
+  animation: fadedSent 2s;
+}
+.hire-modal h3 {
+  animation-delay: 1s;
+  -webkit-animation: fadedSent 2s;
+}
+button.btn.accent-clr.hire-me.my-2.btn.btn-primary {
+  position: relative;
+  z-index: 2;
+  background: var(--white-color);
+  color: var(--main-color);
+  padding: 0.5rem 2.3rem;
+  cursor: pointer;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+button.btn.accent-clr.hire-me.my-2.btn.btn-primary:hover {
+  border-color: var(--white-color);
+  color: var(--white-color);
+  background: var(--main-color);
+}
+@keyframes fadedSent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

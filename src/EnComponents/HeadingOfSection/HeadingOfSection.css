@@ -1,0 +1,18 @@
+.gtext {
+    margin-bottom: 0 !important;
+    color: var(--gtext-clr);
+}
+
+.mtext {
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    font-size: 1.56rem;
+}
+
+.chr1{
+    width: 20%;
+    background-color: #e0e0e0;
+    height: 1px;
+    display: block;
+    margin: 1rem 0;
+}

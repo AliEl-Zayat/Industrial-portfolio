@@ -11,6 +11,7 @@ const ProjectDisplay = () => {
   const [readMe, setReadMe] = useState(false);
   return (
     <section id="project-details">
+      <CanavesNavBar />
       <div className="bg-green">
         <Container>
           <div className="flex-row-reverse justify-content-between">

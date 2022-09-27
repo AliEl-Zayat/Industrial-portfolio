@@ -1,0 +1,10 @@
+.social-nav{
+    background-color: var(--social-nav-bgc);
+    direction: ltr;
+}
+.nav-link{
+    color: var(--black-color);
+}
+.nav-link:hover{
+    color: var(--main-color);
+}

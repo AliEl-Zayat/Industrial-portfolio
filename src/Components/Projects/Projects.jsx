@@ -91,16 +91,16 @@ const Projects = () => {
                     triggerOnce="true"
                   >
                     <div className="project-img-wrapper position-relative">
-                      <div className="overlay d-flex align-items-center justify-content-center">
-                        <button className="projects-mag-btn">
-                          <Link
-                            className="projects-mag-btn text-black"
-                            to={`/project/${project.id}`}
-                          >
+                      <Link
+                        className="projects-mag-btn text-black"
+                        to={`/project/${project.id}`}
+                      >
+                        <div className="overlay d-flex align-items-center justify-content-center">
+                          <button className="projects-mag-btn">
                             <FaSearch />
-                          </Link>
-                        </button>
-                      </div>
+                          </button>
+                        </div>
+                      </Link>
                       <img
                         src={project.image}
                         className="proj-img w-100"
@@ -125,16 +125,16 @@ const Projects = () => {
                   triggerOnce="true"
                 >
                   <div className="project-img-wrapper position-relative">
-                    <div className="overlay d-flex align-items-center justify-content-center">
-                      <button className="projects-mag-btn">
-                        <Link
-                          className="projects-mag-btn text-black"
-                          to={`/project/${project.id}`}
-                        >
+                    <Link
+                      className="projects-mag-btn text-black"
+                      to={`/project/${project.id}`}
+                    >
+                      <div className="overlay d-flex align-items-center justify-content-center">
+                        <button className="projects-mag-btn">
                           <FaSearch />
-                        </Link>
-                      </button>
-                    </div>
+                        </button>
+                      </div>
+                    </Link>
                     <img
                       src={project.image}
                       className="proj-img w-100"

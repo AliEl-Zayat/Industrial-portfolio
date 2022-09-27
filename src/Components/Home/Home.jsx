@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import CircleLoader from "react-spinners/CircleLoader";
 import Brief from "../Brief/Brief";
 import HeaderLanding from "../HeaderLanding/HeaderLanding";
-
+import SocialNav from "../SocialNav/SocialNav";
+import CanavesNavBar from "../CanavesNavBar/CanavesNavBar";
 import Services from "../Services/Services";
 import Projects from "../Projects/Projects";
 import News from "../News/News";
@@ -12,6 +13,7 @@ import Footer from "../Footer/Footer";
 import HireModal from "../HireModal/HireModal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Loading.css";
+import "./arLayout.css";
 const Home = () => {
   let [loading, setLoading] = useState(true);
   function loadingBody() {
@@ -27,7 +29,7 @@ const Home = () => {
   }, []);
   loadingBody();
   return (
-    <>
+    <section className="arabic">
       {loading ? (
         <div className="loading-wrapper">
           <CircleLoader
@@ -36,7 +38,12 @@ const Home = () => {
             size={150}
           />
         </div>
-      ) : null}
+      ) : (
+        <>
+          <SocialNav />
+          <CanavesNavBar />
+        </>
+      )}
 
       <HeaderLanding />
       <Brief />
@@ -46,7 +53,7 @@ const Home = () => {
       <Hire />
       <Mapps />
       <Footer />
-    </>
+    </section>
   );
 };
 

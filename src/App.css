@@ -27,5 +27,5 @@
   color: var(--main-color);
 }
 body {
-  direction: rtl;
+  /* direction: rtl; */
 }
